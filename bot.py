@@ -1,7 +1,7 @@
 from telegram.ext import Updater, MessageHandler, Filters
 
 # 🔐 Твій токен від BotFather
-TELEGRAM_TOKEN = '8327688810:AAEcuzr4ailCGtBThC58CEwZWWJc7Th2Ct8'
+TELEGRAM_TOKEN = "8327688810:AAEcuzr4ailCGtBThC58CEwZWWJc7Th2Ct8"
 
 # 🔧 Обробка постів у каналі
 def handle_channel_post(update, context):
